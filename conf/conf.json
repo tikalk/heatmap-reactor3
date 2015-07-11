@@ -1,0 +1,10 @@
+{
+	"address":"checkins",
+	"http.server.port" : 8080  ,
+	
+	"kafkaProducer":{
+		"topicName":"checkinsTopic",
+		"bootstrap.servers":"localhost:9092"
+	}
+  
+}
