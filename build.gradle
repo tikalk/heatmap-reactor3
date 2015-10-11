@@ -27,8 +27,8 @@ repositories {
 }
 
 dependencies {
-    compile 'io.vertx:vertx-core:3.0.0'
-    compile 'org.apache.kafka:kafka_2.11:0.8.2.1'
+    compile 'io.vertx:vertx-core:3.1.0'
+    compile 'com.cyngn.vertx:vertx-kafka:0.3.0'
     compile "org.slf4j:slf4j-log4j12:1.7.12"
 	compile "org.slf4j:slf4j-api:1.7.12"
 	compile "log4j:log4j:1.2.17"
